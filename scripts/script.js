@@ -1,2 +1,2 @@
-var scene = document.getElementById('scene');
-var parallaxInstance = new Parallax(scene);
+let scene = document.getElementById('scene');
+let parallaxInstance = new Parallax(scene);
