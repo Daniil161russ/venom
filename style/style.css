@@ -73,7 +73,14 @@ body {
 	position: absolute;
 	top: 0;
 	right: 0;
+	z-index: 2;
 }
-.blood {
-	background: url('../img/blood.png') no-repeat top right, #14131A url('../img/bg.jpg') no-repeat center center ;
+.photo {
+	background: #14131A url('../img/bg.jpg') no-repeat center center ;
+}
+#scene {
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 1;
 }
